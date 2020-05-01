@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  background: #f8f8fa;
+}
+
+.flex_block {
+  display: flex;
+}
+
+.flex_block_new {
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #343549;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.nav-bar {
+  overflow: auto;
+  position: fixed;
+  background: #343549;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 250px;
+}
+
+.side_link {
+  color: white;
+  padding: 10px;
+}
+
+.side_link > div {
+  font-size: 18px;
+}
+.arrow {
+  margin-left: auto;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  padding: 10px;
+}
+.main {
+  flex-direction: row;
+}
+.right_side {
+  padding-left: 250px;
+  width: 100%;
+}
+.top_nav {
+  width: 100%;
+  flex-direction: row;
+  height: 70px;
+  background: #edecf1;
+}
+.card_layout {
+  width: 100%;
+}
+.card_layout > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color: #575c62;
+}
+.button {
+  background-color: #626ed4;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #f8b425;
+}
+
+.dash {
+  width: 100%;
+  font-size: 22px;
+  color: #575c62;
+  text-align: left;
+}
+* {
+  box-sizing: border-box;
+}
+.cardflex {
+  justify-content: space-around;
+  margin: 2px;
+}
+
+.cards {
+  background-color: #626ed4;
+  width: 260px;
+  height: 150px;
+  color: white;
+  padding: 10px;
+  padding-right: 0;
+  border: 1px transparent;
+  border-radius: 5px;
+}
+.card-top {
+  flex-direction: row;
+  flex: 3;
+  font-size: 15px;
+}
+
+.arrow {
+  padding-right: 20px;
+}
+.topnavbar {
+  margin-left: auto;
+}
+.card-bottom {
+  /* background: red; */
+
+  flex-direction: row;
+  flex: 1;
+  color: white;
+
+  padding-right: 10px;
+  padding-top: 30px;
+}
+.card-top div {
+  /* background-color: aquamarine; */
+  /* border: 1px solid; */
+}
+.arrow-wrap {
+  background: red;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  vertical-align: auto;
+}
+
+.arrow-wrap2 {
+  background: #f8b425;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  vertical-align: auto;
+}
+
+.arrow-wrap3 {
+  background: #2aa39a;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  vertical-align: auto;
+}
+
+.arrow-wrap4 {
+  background: red;
+  width: 80px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  vertical-align: auto;
+}
+.arrow-text {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+}
+.arrow-wrap:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px #626ed4;
+}
+
+.arrow-wrap2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px #626ed4;
+}
+.arrow-wrap3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px #626ed4;
+}
+.arrow-wrap4:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-left: solid 15px #626ed4;
+}
+.bg-green {
+  background: green;
+}
+
+.table_data tr:hover {
+  background: #d3d3d3;
+}
+
+.table_data td {
+  padding: 10px;
+  border-top: 1px solid;
+  border-color: #e7e7e7;
+  text-align: center;
+  color: #575c62;
+}
+
+.table_data th {
+  padding: 10px;
+  border-top: 1px;
+  border-color: #e7e7e7;
+  text-align: center;
+  color: #575c62;
+}
+
+.table {
+  width: 100%;
+
+  border: 1px groove transparent;
+
+  border-radius: 10px;
+
+  margin-left: 20px;
+  margin-top: 25px;
+  background: white;
+  color: #575c62;
+  padding: 10px;
+}
+
+.table_data {
+  width: 100%;
+}
+.username {
+  text-align: center;
+  margin: auto;
+}
+
+.chat {
+  width: 500px;
+  border-radius: 10px;
+  border: 1px groove transparent;
+  margin-left: 20px;
+  margin-top: 25px;
+  background: white;
+  padding: 10px;
+}
+
+.sender {
+  margin-left: auto;
+}
+
+.chat-bubble {
+  padding: 10px;
+  position: relative;
+}
+
+.chat-bubble:before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  width: 0;
+  height: 0;
+  border-top: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+  border-right: solid 15px #ddd;
+}
+
+.chat-bubble.receiver {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.chat-bubble.receiver::before {
+  right: 60px;
+  left: auto;
+  border-left: solid 15px #ddd;
+
+  border-right: none;
+}
+
+.chatbox {
+  width: 200px;
+  height: 80px;
+  background: #ddd;
+  border: 1px transparent;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  color: black;
+  font-size: 10px;
+}
+
+.chatbox2 {
+  width: 200px;
+  height: 80px;
+  background: #ddd;
+  border: 1px transparent;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: black;
+  font-size: 10px;
+}
+.chatbox strong {
+  font-size: 12px;
+}
+
+.status {
+  background: #2aa39a;
+  color: white;
+  padding: 2px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.message button:hover {
+  background: orange;
+}
+
+.msgbox {
+  width: 280px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #575c62;
+
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex_block {
+    flex-direction: column;
+  }
+  .table {
+    background: white;
+    margin: 0px;
+  }
+  .text_below {
+    display: none;
+  }
+}
+
+.rightside_bottom {
+  padding: 20px;
+}
+
+.nav-bar-new {
+  display: none;
+  width: 0px;
+}
+
+.rightside-new {
+  padding-left: 0px;
+}
